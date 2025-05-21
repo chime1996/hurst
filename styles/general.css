@@ -1,0 +1,70 @@
+/* Variables */
+:root {
+  /* Colors */
+  --primary-color: #e6e6e6;
+  --secondary-color: #fdfdfd;
+
+  --accent-color: #b75555;
+  --secondary-accent-color: #c2b280;
+
+  --main-text-color: #000000;
+}
+
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: var(--primary-color);
+}
+
+/* Navigation */
+.navigation {
+  background-color: var(--secondary-color);
+}
+
+.navigation-menu {
+  padding: 3.2rem;
+}
+
+.menu-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu-Icon */
+.menu-icon,
+.menu-cart-icon {
+  color: var(--main-text-color);
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-right: 2rem;
+}
+.menu-cart-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.menu-cart-icon:hover {
+  color: var(--secondary-accent-color);
+}
+
+.menu-cart-icon::after {
+  position: absolute;
+  content: "3";
+  color: var(--secondary-color);
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: var(--accent-color);
+  bottom: 2rem;
+  right: -1rem;
+  z-index: 10;
+}
