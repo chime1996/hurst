@@ -20,6 +20,7 @@ html {
 }
 body {
   background-color: var(--primary-color);
+  line-height: 1.5;
 }
 
 /* Navigation */
@@ -67,4 +68,19 @@ body {
   bottom: 2rem;
   right: -1rem;
   z-index: 10;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  border: 1px, solid #999;
+  padding: 1.2rem;
+  width: 11.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: var(--main-text-color);
+  margin-top: 1.5rem;
 }
