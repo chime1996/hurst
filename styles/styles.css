@@ -1,5 +1,5 @@
 .hero-section {
-  height: 81.5vh;
+  height: 80.5vh;
   background-color: #f9f7f2;
   overflow: hidden;
   align-items: center;
@@ -21,7 +21,7 @@
   max-width: 40rem;
   text-align: left;
   z-index: 10;
-  margin-right: 56rem;
+  margin-right: 35rem;
   border-radius: 1rem;
 }
 
